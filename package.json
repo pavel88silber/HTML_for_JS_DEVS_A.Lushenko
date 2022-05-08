@@ -1,0 +1,11 @@
+{
+  "name": "html_for_js_devs_a.lushenko",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pavel",
+  "license": "ISC"
+}
