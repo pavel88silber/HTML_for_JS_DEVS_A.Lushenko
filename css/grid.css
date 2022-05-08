@@ -5,45 +5,51 @@ body {
     "sidebar1 main1 sidebar2"
     "footer1 footer1 footer2";
     grid-gap: 10px;
+    /* Viewport Height (vh) — это процентная величина от общей высоты области просмотра. 10vh составляет 10% от текущей высоты области просмотра. */
     height: 100vh;
     margin: 0;
-    grid-template-rows: 50px 1fr 100px;
-    grid-template-columns: 2fr 6fr 1fr;
+    grid-template-rows: 1fr 8fr 1fr;
+    grid-template-columns: 1fr 8fr 1fr;
 }
 
 #header {
     padding: 20px;
     background: #edbaba;
     grid-area: header1;
+    border-radius: 10%;
 }
 
 #main {
     padding: 20px;
-    background: #ecfd6b;
+    background: #ff9393;
     grid-area: main1;
-    border-radius: 5%;
+    border-radius: 10%;
 }
 
 #sidebar-1 {
     padding: 20px;
     background: #ecfd6b;
     grid-area: sidebar1;
+    border-radius: 10%;
 }
 
 #sidebar-2 {
     padding: 20px;
     background: #8cfe75;
     grid-area: sidebar2;
+    border-radius: 10%;
 }
 
 #footer-1 {
     padding: 20px;
     background: #b2dbff;
     grid-area: footer1;
+    border-radius: 10%;
 }
 
 #footer-2 {
     padding: 20px;
-    background: #bfb0f8;
+    background: #f3a5d6;
     grid-area: footer2;
+    border-radius: 10%;
 }
