@@ -14,7 +14,6 @@ h1 {
 
 @keyframes pp {
     from {
-        
     }
     to {
         width: 400px;
@@ -59,7 +58,6 @@ h1 {
 
 @keyframes ttt {
     0% {
-
     }
     50% {
         top: -38px;
@@ -70,7 +68,6 @@ h1 {
         transform: rotate3d(1, 1, 1, 45deg);
         left: 90px;
         top: -38px;
-        
     }
 }
 
