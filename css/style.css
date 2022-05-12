@@ -224,4 +224,18 @@ th {
     text-align: center;
 }
 
+/* EVENTS */
+#circle {
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 50px auto;
+}
 
+#textInput {
+    display: block;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
