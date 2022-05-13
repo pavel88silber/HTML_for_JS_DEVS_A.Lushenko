@@ -13,10 +13,13 @@ h1 {
 }
 
 .blockIndent {
-  /* border: 1px solid rgba(0, 0, 0, 0.253); */
   height: 30px;
   width: 30px;
   margin: 1px;
   display: inline-block;
   background: #f5f4f2be;
+}
+
+.down {
+  /* display: block; */
 }
